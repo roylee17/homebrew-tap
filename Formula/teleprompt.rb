@@ -10,7 +10,7 @@ class Teleprompt < Formula
       sha256 "44e523083eeea60db2c4c0c8d43fb63707812c321390e235edcbe3496931fe8f"
 
       def install
-        bin.install "teleprompt/teleprompt-darwin-arm64" => "teleprompt"
+        bin.install "teleprompt-darwin-arm64" => "teleprompt"
       end
     end
 
@@ -19,7 +19,7 @@ class Teleprompt < Formula
       sha256 "7af0a06d8e8bcdd592bf258b1b1d4c23dcb66b4b7ca584ac3030631c6739717b"
 
       def install
-        bin.install "teleprompt/teleprompt-darwin-amd64" => "teleprompt"
+        bin.install "teleprompt-darwin-amd64" => "teleprompt"
       end
     end
   end
@@ -30,7 +30,7 @@ class Teleprompt < Formula
       sha256 "27069d2752785e0acc311edb2c7c5791e58f6bb83a4fef358d629057c685fef1"
 
       def install
-        bin.install "teleprompt/teleprompt-linux-amd64" => "teleprompt"
+        bin.install "teleprompt-linux-amd64" => "teleprompt"
       end
     end
 
@@ -39,7 +39,7 @@ class Teleprompt < Formula
       sha256 "b7f139b299781e053933f8b1feda2c3320a5bb5b9c4b42ef610f299339ade0e4"
 
       def install
-        bin.install "teleprompt/teleprompt-linux-arm64" => "teleprompt"
+        bin.install "teleprompt-linux-arm64" => "teleprompt"
       end
     end
   end
