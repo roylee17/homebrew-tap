@@ -1,13 +1,13 @@
 class ZitadelCli < Formula
   desc "CLI tool for Zitadel IAM provisioning and management"
   homepage "https://github.com/roylee17/zitadel-cli"
-  version "0.2.1"
+  version "0.2.2"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/roylee17/zitadel-cli/releases/download/v0.2.1/release-darwin-arm64.tar.gz"
-      sha256 "8b6dbda5d72006672dd3e35478d80305518907c447306f6bb752c10f91c4d2b4"
+      url "https://github.com/roylee17/zitadel-cli/releases/download/v0.2.2/release-darwin-arm64.tar.gz"
+      sha256 "7ae419418f8c791f1c708a1019e9b142e9748be3673d6cab0cab7030a03350c5"
 
       def install
         bin.install "zitadel-cli-darwin-arm64" => "zitadel-cli"
@@ -15,8 +15,8 @@ class ZitadelCli < Formula
     end
 
     on_intel do
-      url "https://github.com/roylee17/zitadel-cli/releases/download/v0.2.1/release-darwin-amd64.tar.gz"
-      sha256 "19422f7eb63923cd83b4da0f49f8cb50183af5b17eb23a3de77f7e44e1afb18d"
+      url "https://github.com/roylee17/zitadel-cli/releases/download/v0.2.2/release-darwin-amd64.tar.gz"
+      sha256 "aa0599581d5be2964692099936507b93fb9d0c691b6015f485c1a93c34727019"
 
       def install
         bin.install "zitadel-cli-darwin-amd64" => "zitadel-cli"
@@ -26,8 +26,8 @@ class ZitadelCli < Formula
 
   on_linux do
     on_intel do
-      url "https://github.com/roylee17/zitadel-cli/releases/download/v0.2.1/release-linux-amd64.tar.gz"
-      sha256 "74a40576ccc35cf2d7d6942842542467882c5abc87cf854f2d43fac4aee9bb80"
+      url "https://github.com/roylee17/zitadel-cli/releases/download/v0.2.2/release-linux-amd64.tar.gz"
+      sha256 "ac80d2493cb5fe32e559183f5532d14ef6fedb5b5b71e5dce683913ac4f00fe3"
 
       def install
         bin.install "zitadel-cli-linux-amd64" => "zitadel-cli"
@@ -35,8 +35,8 @@ class ZitadelCli < Formula
     end
 
     on_arm do
-      url "https://github.com/roylee17/zitadel-cli/releases/download/v0.2.1/release-linux-arm64.tar.gz"
-      sha256 "699939863766e82eb65e52be5a165275b91e5e3695d6ed13b5070716f6289a52"
+      url "https://github.com/roylee17/zitadel-cli/releases/download/v0.2.2/release-linux-arm64.tar.gz"
+      sha256 "6900b211e70185200ade7e53458b36f14f00153777ba97790a5767e9dd0144a2"
 
       def install
         bin.install "zitadel-cli-linux-arm64" => "zitadel-cli"
