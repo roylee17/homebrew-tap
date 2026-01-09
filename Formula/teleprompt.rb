@@ -7,7 +7,7 @@ class Teleprompt < Formula
   on_macos do
     on_arm do
       url "https://github.com/roylee17/teleprompt/releases/download/v0.3.0/release-darwin-arm64.tar.gz"
-      sha256 "9c47a6ad3788a40d380ec5d48a5ed7badc6c7403f7ce5f1e34fe9c39a8bc919d"
+      sha256 "b4259aa5020edd99c2c4ebe794fb59b7f981e27bc73841d17c92341d60807410"
 
       def install
         bin.install "teleprompt-darwin-arm64" => "teleprompt"
@@ -16,7 +16,7 @@ class Teleprompt < Formula
 
     on_intel do
       url "https://github.com/roylee17/teleprompt/releases/download/v0.3.0/release-darwin-amd64.tar.gz"
-      sha256 "ae8709858668c0c92e14308f5f10c1b7c21cc751260c25b12e5f59c95d116673"
+      sha256 "962920eb3eac6dcaaeffc17dd6ef18d6fa94a9c989fa2c7480f7b20fc92dce15"
 
       def install
         bin.install "teleprompt-darwin-amd64" => "teleprompt"
@@ -27,7 +27,7 @@ class Teleprompt < Formula
   on_linux do
     on_intel do
       url "https://github.com/roylee17/teleprompt/releases/download/v0.3.0/release-linux-amd64.tar.gz"
-      sha256 "7800abf0eb97f214563c32e2d0016e53dbbdcba022de9483f4a794df2b6d15c7"
+      sha256 "69ae6ab00085c815394433dd82350e02dfbae2585ae2c75672992ec6c0c4abf9"
 
       def install
         bin.install "teleprompt-linux-amd64" => "teleprompt"
@@ -36,7 +36,7 @@ class Teleprompt < Formula
 
     on_arm do
       url "https://github.com/roylee17/teleprompt/releases/download/v0.3.0/release-linux-arm64.tar.gz"
-      sha256 "c01712f761527275542b4a2e469e8343805faf4e221105b817a1649f8e7cc577"
+      sha256 "fc388426fa0a21b80a0095cbdf2f24e281d6bb5e6195eaaa5ceda27e1a2f063d"
 
       def install
         bin.install "teleprompt-linux-arm64" => "teleprompt"
